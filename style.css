@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    padding: 50px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.titulo {
+    font-size: 30px;
+    color: rgb(10, 10, 10);
+    font-family: 'Volkhov', serif;
+}
+
+input {
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+#calcular {
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(33, 123, 240);
+
+}
+
+#calcular:hover {
+    background-color: rgb(15, 89, 185);
+    transition: 2s;
+    transform: scale(1.1);
+}
+
+p {
+    font-family: 'Volkhov', serif;
+    font-size: 20px;
+}
